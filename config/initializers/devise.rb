@@ -9,7 +9,7 @@ Devise.setup do |config|
   # Devise will use the `secret_key_base` as its `secret_key`
   # by default. You can change it below and use your own secret key.
   # config.secret_key = '91169b1dbdc37ea00920d418279560a53bf1374a773bd47a4dd02d8afb93a5cc76a0a0cfc38e6caa8e9ef98055e9b855dbcfe9b3d0fd7303bbb348ce0249f473'
-  
+
   # ==> Controller configuration
   # Configure the parent class to the devise controllers.
   # config.parent_controller = 'DeviseController'
@@ -287,5 +287,6 @@ Devise.setup do |config|
   # ActiveSupport.on_load(:devise_failure_app) do
   #   include Turbolinks::Controller
   # end
-  config.omniauth :facebook, "2126017307459171", "84d1407df52f99fe690bff38a73bcc69"
+  config.omniauth :facebook, '2126017307459171', '84d1407df52f99fe690bff38a73bcc69'
+  config.omniauth :twitter, '86h4xxrwhqftn1', 'ZZL5BpPZnuA6z4YB'
 end
